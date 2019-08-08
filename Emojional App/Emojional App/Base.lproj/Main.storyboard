@@ -28,6 +28,9 @@
                                 <rect key="frame" x="20" y="332" width="374" height="110"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="82"/>
                                 <state key="normal" title="💂🏼‍♂️"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gaA-oU-Iub"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queer Eye " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngV-7p-JVe">
                                 <rect key="frame" x="20" y="94" width="374" height="30"/>
@@ -39,11 +42,17 @@
                                 <rect key="frame" x="20" y="198" width="374" height="104"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="77"/>
                                 <state key="normal" title="🥳"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pcb-x2-wo5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10j-n4-teW">
                                 <rect key="frame" x="20" y="464" width="374" height="103"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="76"/>
                                 <state key="normal" title="🐶"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8NA-I3-bC0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7646583658789029" green="0.80324443763358455" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
